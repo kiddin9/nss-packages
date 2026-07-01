@@ -451,8 +451,7 @@ define KernelPackage/qca-nss-drv-netlink
 	   +PACKAGE_kmod-qca-nss-drv-qdisc:kmod-qca-nss-drv-qdisc \
 	   +PACKAGE_kmod-qca-nss-drv-tun6rd:kmod-qca-nss-drv-tun6rd \
 	   +PACKAGE_kmod-qca-nss-drv-tunipip6:kmod-qca-nss-drv-tunipip6 \
-	   +PACKAGE_kmod-qca-nss-drv-vxlanmgr:kmod-qca-nss-drv-vxlanmgr \
-	   +@(PACKAGE_kmod-qca-nss-drv-gre):NSS_DRV_GRE_REDIR_ENABLE
+	   +PACKAGE_kmod-qca-nss-drv-vxlanmgr:kmod-qca-nss-drv-vxlanmgr
   FILES:=$(PKG_BUILD_DIR)/netlink/qca-nss-netlink.ko
 endef
 
